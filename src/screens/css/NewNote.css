@@ -1,0 +1,23 @@
+.newNote {
+  height: 100vh;
+}
+
+.newNote__container {
+  margin: 2rem 2rem 0 2rem;
+  height: 100%;
+}
+
+.newNote__container textarea {
+  height: 100% !important;
+  width: 100%;
+  outline: none;
+  border: none;
+  font-family: "Poppins", sans-serif;
+  font-size: 1.5rem;
+}
+
+.newNote_buttton {
+  position: fixed;
+  top: 50%;
+  right: 1rem;
+}

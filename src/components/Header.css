@@ -1,0 +1,28 @@
+.header {
+  display: flex;
+  flex-direction: row;
+  background-color: white;
+  color: black;
+  padding: 0.3rem 0.5rem 0.5rem 0.5rem;
+}
+
+.header__title {
+  margin: 0.5rem 0 0 2rem;
+  flex: 50%;
+}
+
+.header__title > h2:hover {
+  cursor: pointer;
+}
+
+.header__account {
+  flex: 50%;
+  display: flex;
+  justify-content: flex-end;
+  margin: 0.5rem 2rem 0 0;
+}
+
+.headerAccount__loginBtn {
+  width: fit-content;
+  margin: 0 1rem 0 1rem;
+}

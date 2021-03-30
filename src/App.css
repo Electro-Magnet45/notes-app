@@ -1,0 +1,52 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap");
+
+body {
+  --colour-1: #ffab91;
+  --colour-2: #ffcc80;
+  --colour-3: #e6ee9b;
+  --colour-4: #80deea;
+  --colour-5: #cf93d9;
+  --colour-6: #b80c09;
+  --colour-7: #0b4f6c;
+  --colour-8: #01baef;
+  --colour-9: #8075ff;
+  --colour-10: #648de5;
+}
+
+.app {
+  font-family: "Poppins", sans-serif;
+}
+
+.app button {
+  background-color: white;
+  color: black;
+}
+
+.app button:hover {
+  background-color: white;
+  color: black;
+}
+
+.app h2 {
+  font-size: 1.51rem;
+}
+
+.app h3 {
+  font-size: 1.35rem;
+}
+
+.app h4 {
+  font-size: 1.19rem;
+}
+
+.app h5 {
+  font-size: 1.03rem;
+}
+
+.app h6 {
+  font-size: 0.87rem;
+}
+
+.app p {
+  word-wrap: break-word;
+}

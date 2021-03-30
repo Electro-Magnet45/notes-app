@@ -1,0 +1,13 @@
+.home_notes__div {
+  display: flex;
+  -webkit-flex-wrap: wrap;
+  flex-wrap: wrap;
+  margin: 3rem 15rem 0 15rem;
+  transition: ease all 0.5s;
+}
+
+@media only screen and (max-width: 800px) {
+  .home_notes__div {
+    margin: 3rem 1rem 0 1rem;
+  }
+}
