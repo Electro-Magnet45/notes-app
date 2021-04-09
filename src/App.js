@@ -10,7 +10,7 @@ function App() {
   //
   useEffect(() => {
     abcd();
-    console.log(process.env.REACT_APP_NOT_SECRET_CODE);
+    console.log(process.env.DATABASE_URI);
   }, []);
 
   return (
