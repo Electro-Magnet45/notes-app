@@ -10,7 +10,7 @@ function App() {
   //
   useEffect(() => {
     abcd();
-    console.log(process.env.DATABASE_URI);
+    console.log(process.env.REACT_APP_APP_URL);
   }, []);
 
   return (
