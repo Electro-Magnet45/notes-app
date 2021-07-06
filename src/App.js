@@ -4,15 +4,8 @@ import Home from "./screens/Home";
 import NewNote from "./screens/NewNote";
 
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
-import abcd from "./envTest";
 
 function App() {
-  //
-  useEffect(() => {
-    abcd();
-    console.log(process.env.REACT_APP_APP_URL);
-  }, []);
-
   return (
     <div className="app">
       <Router>
